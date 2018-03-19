@@ -70,24 +70,18 @@ class QuizNew extends Component {
               control={Radio}
               label="Beginner"
               value="Beginner"
-              checked={value === "Beginner"}
-              onChange={this.handleChange}
               name="difficulty"
             />
             <Form.Field
               control={Radio}
               label="Intermediate"
               value="Intermediate"
-              checked={value === "Intermediate"}
-              onChange={this.handleChange}
               name="difficulty"
             />
             <Form.Field
               control={Radio}
               label="Advanced"
               value="Advanced"
-              checked={value === "Advanced"}
-              onChange={this.handleChange}
               name="difficulty"
             />
           </Form.Group>

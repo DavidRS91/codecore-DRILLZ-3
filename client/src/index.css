@@ -65,6 +65,10 @@ li.userSummary.dashboard > div {
   width: 20%;
 }
 
+li.userSummary > div {
+  width: 25%;
+}
+
 li.questionList {
   width: 50%;
   display: flex;

@@ -57,6 +57,7 @@ class Leaderboard extends React.Component {
             <div className="profile-box">
               <h1>Profile</h1>
               <p><strong>Name: </strong> {user.first_name} {user.last_name}</p>
+              <p><strong>Email: </strong> {user.email}</p>
               <p><strong>Accumulated Points: </strong> {user.total_score}</p>
               <p><strong>Number of Badges: </strong> {user.number_of_badges}</p>
             </div>
